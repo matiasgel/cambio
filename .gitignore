@@ -4,27 +4,27 @@
 /web-app/WEB-INF/classes
 
 # default HSQL database files for production mode
-/prodDb.*
+/App/prodDb.*
 
 # general HSQL database files
 *Db.properties
 *Db.script
 
 # logs
-/stacktrace.log
-/test/reports
-/logs
+/App/stacktrace.log
+/App/test/reports
+/App/logs
 
 # project release file
-/*.war
+/App/*.war
 
 # plugin release files
 /*.zip
-/plugin.xml
+/App/plugin.xml
 
 # older plugin install locations
-/plugins
-/web-app/plugins
+/App/plugins
+/App/web-app/plugins
 
 # "temporary" build files
-/target
+/App/target
